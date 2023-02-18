@@ -22,3 +22,12 @@ document.getElementById('btn-parallelogram').addEventListener('click',function()
     const parallelogramResult =  document.getElementById('parallelogram-text');
     parallelogramResult.innerText = parallelogramTotalValue;
 })
+
+document.getElementById('btn-rhombus').addEventListener('click',function(){
+    const rhombusInputFieldD1 = getInputFieldValueById('rhombus-1');
+    const rhombusInputFieldD2 = getInputFieldValueById('rhombus-2');
+    const rhombusTotalValue = (rhombusInputFieldD1 * rhombusInputFieldD2 * .5).toFixed(1);
+    const rhombusResult =  document.getElementById('rhombus-text');
+    rhombusResult.innerText = rhombusTotalValue;
+    
+})
