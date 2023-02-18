@@ -15,3 +15,10 @@ document.getElementById('btn-rectangle').addEventListener('click',function(){
     const rectangleResult =  document.getElementById('rectangle-text');
     rectangleResult.innerText = rectangleTotalValue;
 })
+document.getElementById('btn-parallelogram').addEventListener('click',function(){
+    const parallelogramInputFieldB = getInputFieldValueById('parallelogram-1');
+    const parallelogramInputFieldH = getInputFieldValueById('parallelogram-2');
+    const parallelogramTotalValue =parallelogramInputFieldB  * parallelogramInputFieldH  ;
+    const parallelogramResult =  document.getElementById('parallelogram-text');
+    parallelogramResult.innerText = parallelogramTotalValue;
+})
