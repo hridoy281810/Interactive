@@ -1,9 +1,11 @@
 
 document.getElementById('btn-triangle').addEventListener('click',function(){
     const triangleInputFieldB = getInputFieldValueById('triangle-1');
- 
+    //  const triangleValuB =  document.getElementById('triangle-valu-b')
+    //  triangleValuB.innerText = '';
+    //  triangleValuB.innerText =triangleInputFieldB;
     const triangleInputFieldH = getInputFieldValueById('triangle-2');
-    if(isNaN(triangleInputFieldB,triangleInputFieldH) ){
+    if(isNaN(triangleInputFieldB,triangleInputFieldH,) ){
         alert('Triangle !!! All your inputs are blank!!! 😡 Please set values ​​to all inputs and try again❤️');
         return;
     }
