@@ -40,3 +40,11 @@ document.getElementById('btn-pentagon').addEventListener('click',function(){
     pentagonResult.innerText = pentagonTotalValue;
     
 })
+
+document.getElementById('btn-ellipse').addEventListener('click',function(){
+    const ellipseInputFieldA = getInputFieldValueById('ellipse-1');
+    const ellipseInputFieldB = getInputFieldValueById('ellipse-2');
+    const ellipseTotalValue = (ellipseInputFieldA * ellipseInputFieldB * .5).toFixed(1);
+    const ellipseResult =  document.getElementById('ellipse-text');
+    ellipseResult.innerText = ellipseTotalValue;
+})
