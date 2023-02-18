@@ -31,3 +31,12 @@ document.getElementById('btn-rhombus').addEventListener('click',function(){
     rhombusResult.innerText = rhombusTotalValue;
     
 })
+
+document.getElementById('btn-pentagon').addEventListener('click',function(){
+    const pentagonInputFieldP = getInputFieldValueById('pentagon-1');
+    const pentagonInputFieldB = getInputFieldValueById('pentagon-2');
+    const pentagonTotalValue = (pentagonInputFieldP * pentagonInputFieldB * .5).toFixed(1);
+    const pentagonResult =  document.getElementById('pentagon-text');
+    pentagonResult.innerText = pentagonTotalValue;
+    
+})
