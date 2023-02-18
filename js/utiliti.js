@@ -1,4 +1,4 @@
-
+// function 1
 function getInputFieldValueById(inputFiel){
     const inputFieldElement = document.getElementById(inputFiel);
     const inputFieldValueString = inputFieldElement.value;
@@ -7,12 +7,13 @@ function getInputFieldValueById(inputFiel){
     inputFieldElement.value = '';
     return inputFieldValue;
 }
- 
+ // function 2
 function setTextValueById(textId,NewValue){
     const textElement = document.getElementById(textId);
-    textElement.innerText = NewValue; 
-
+    textElement.innerText = NewValue;  
 }
+
+// function 3
 function randomColor() {
     let color = [];
     for (let i = 0; i < 3; i++) {

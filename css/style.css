@@ -21,5 +21,9 @@ height:194px;
     display: none;
 }
 #displaay-show-1,#displaay-show-2,#displaay-show-3,#displaay-show-4,#displaay-show-5,#displaay-show-6{
+   
     display: none;
+}
+#property li{
+    counter-reset: section;
 }
